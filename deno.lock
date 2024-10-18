@@ -1,0 +1,41 @@
+{
+  "version": "4",
+  "specifiers": {
+    "jsr:@hono/hono@^4.6.5": "4.6.5",
+    "npm:@unkey/api@*": "0.26.2"
+  },
+  "jsr": {
+    "@hono/hono@4.6.5": {
+      "integrity": "68efe4a0ab7c4fb082cb71aa894a25e1c6cfad6d124dc943471e6758a7a1bdee"
+    }
+  },
+  "npm": {
+    "@unkey/api@0.26.2": {
+      "integrity": "sha512-huHF5AbX1NL2MJHSfsO1mB9CSA1CgTlgdPUGZgYCll3BOCKRneYiZ2GgYGiWFbtYaUimjaZgHyGnH9fpQlDFjA==",
+      "dependencies": [
+        "@unkey/rbac"
+      ]
+    },
+    "@unkey/error@0.2.0": {
+      "integrity": "sha512-DFGb4A7SrusZPP0FYuRIF0CO+Gi4etLUAEJ6EKc+TKYmscL0nEJ2Pr38FyX9MvjI4Wx5l35Wc9KsBjMm9Ybh7w==",
+      "dependencies": [
+        "zod"
+      ]
+    },
+    "@unkey/rbac@0.3.1": {
+      "integrity": "sha512-Hj+52XRIlBBl3/qOUq9K71Fwy3PWExBQOpOClVYHdrcmbgqNL6L4EdW/BzliLhqPCdwZTPVSJTnZ3Hw4ZYixsQ==",
+      "dependencies": [
+        "@unkey/error",
+        "zod"
+      ]
+    },
+    "zod@3.23.8": {
+      "integrity": "sha512-XBx9AXhXktjUqnepgTiE5flcKIYWi/rme0Eaj+5Y0lftuGBq+jyRu/md4WnuxqgP1ubdpNCsYEYPxrzVHD8d6g=="
+    }
+  },
+  "workspace": {
+    "dependencies": [
+      "jsr:@hono/hono@^4.6.5"
+    ]
+  }
+}
